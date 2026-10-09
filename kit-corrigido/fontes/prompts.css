@@ -1,0 +1,38 @@
+.intro { padding: 33pt 7.5pt 0; page-break-after: always; }
+.intro p { font-size: 11pt; }
+.intro .faixa { margin-top: 0; }
+
+table.indice { width: 100%; border-collapse: collapse; margin-top: -4pt; }
+table.indice td {
+  border-bottom: 0.75pt solid #e8e4dd; padding: 6.75pt 7.5pt;
+  font-size: 10pt; line-height: 1.4; color: #2b2b2b; vertical-align: middle;
+}
+table.indice td.n { width: 30pt; font-weight: bold; color: #d97757; }
+table.indice td.c { width: 76pt; font-size: 8.5pt; color: #8a6a5a; letter-spacing: 1pt; text-transform: uppercase; }
+
+.faixa.bloco { margin: 22.5pt 0 15pt; }
+
+.card {
+  background: #fff; border: 0.75pt solid #e8e4dd; border-left: 2.25pt solid #d87756;
+  padding: 13.5pt 17.25pt 13.5pt 18pt; margin: 0 0 13.5pt; break-inside: avoid;
+}
+.card .cab { height: 24pt; line-height: 24pt; }
+.card .num {
+  display: inline-block; width: 24pt; height: 24pt; padding: 0; box-sizing: border-box;
+  background: #d87756; color: #fff; font-weight: bold; font-size: 12pt; text-align: center;
+  margin-right: 10.5pt; vertical-align: top;
+}
+.card .tit { font-family: "Nimbus Roman", serif; font-weight: bold; font-size: 13pt; color: #1f1f1f; vertical-align: top; }
+.card .quando { font-style: italic; font-size: 9pt; color: #8a6a5a; margin: 6pt 0 0 1.5pt; line-height: 1.5; }
+.card .rot { font-weight: bold; font-size: 8.5pt; letter-spacing: 1.2pt; color: #d97757; text-transform: uppercase; margin: 9pt 0 4.5pt; line-height: 1.5; }
+.card .dica { font-size: 9pt; line-height: 1.5; color: #5a5a5a; margin: 7.6pt 0 0 1.5pt; }
+.card .dica b { color: #d97757; }
+
+h2.secao.final { margin: 46.5pt 7.5pt 15pt; break-after: avoid; }
+.dfinal {
+  background: #fff4ef; border: 0.75pt solid #efd8cc; margin: 0 7.5pt 12pt;
+  padding: 16.5pt 18.75pt 16.5pt; break-inside: avoid;
+}
+.dfinal .t { font-family: "Liberation Serif", serif; font-size: 13pt; color: #d97757; line-height: 1.2; margin-bottom: 7pt; }
+.dfinal .x { font-size: 10pt; line-height: 1.5; color: #3a3a3a; }
+.intro .destaque { margin-top: 18pt; }

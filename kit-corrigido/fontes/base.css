@@ -1,0 +1,75 @@
+/* Estilo comum dos PDFs do Kit (reconstrução fiel dos originais, WeasyPrint 66). */
+@page { size: A4; margin: 51pt; }
+
+html { background: #fff; }
+body {
+  margin: 0;
+  background: #f9f9f4;
+  font-family: "Nimbus Sans", sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+  color: #3a3a3a;
+}
+p { margin: 0 0 11pt; }
+strong, b { font-weight: bold; }
+.serif { font-family: "Liberation Serif", serif; font-weight: normal; }
+.laranja { color: #d97757; }
+
+/* Capa */
+.capa { padding: 30pt 22.5pt 0; page-break-after: always; }
+.capa .selo {
+  display: inline-block; background: #d87756; color: #fff;
+  font-size: 9pt; line-height: 1; letter-spacing: 1.8pt;
+  padding: 6.75pt 10.5pt; text-transform: uppercase;
+}
+.capa h1 {
+  font-family: "Liberation Serif", serif; font-weight: normal;
+  font-size: 36pt; line-height: 1.1; color: #1f1f1f; margin: 20pt 0 0;
+}
+.capa h1 span { color: #d97757; }
+.capa .sub {
+  font-family: "Nimbus Roman", serif; font-style: italic;
+  font-size: 14pt; line-height: 1.5; color: #5a5a5a; margin: 21pt 0 0;
+}
+.capa .linha { width: 60pt; height: 2.25pt; background: #d87756; margin: 30pt 0 30pt; }
+.capa .meta { font-size: 10pt; line-height: 1.5; color: #6b6b6b; }
+.capa .meta b { color: #d97757; }
+
+/* Títulos de seção com barra lateral */
+h2.secao {
+  font-family: "Liberation Serif", serif; font-weight: normal;
+  font-size: 22pt; line-height: 1.2; color: #1f1f1f;
+  border-left: 2.25pt solid #d87756; padding: 3.3pt 0 3.3pt 11.25pt; margin: 0 0 15.5pt;
+}
+
+/* Faixa laranja (blocos e rótulos de seção) */
+.faixa {
+  background: #d87756; color: #fff; font-size: 10pt; line-height: 1;
+  letter-spacing: 2pt; text-transform: uppercase;
+  padding: 8.5pt 10.5pt; margin: 22.5pt 0 15pt;
+}
+
+/* Caixa de destaque */
+.destaque {
+  background: #fff4ef; border-left: 2.25pt solid #d87756;
+  padding: 12pt 15.75pt 11pt; margin: 0 0 22.5pt;
+  font-size: 10.5pt; line-height: 1.5; color: #2b2b2b;
+}
+.destaque b { color: #d97757; }
+
+/* Caixa de código/prompt */
+pre {
+  background: #f9f9f4; border: 0.75pt dashed #d87756;
+  padding: 10.5pt 12pt; margin: 0;
+  font-family: "Liberation Mono", monospace; font-size: 9.5pt; line-height: 1.6;
+  color: #2b2b2b; white-space: pre-wrap;
+}
+
+/* Rodapé final */
+.cta {
+  background: #1f1f1f; text-align: center; padding: 25.5pt 0 22.5pt;
+  margin: 22.5pt 7.5pt 0; break-inside: avoid;
+}
+.cta .t { font-family: "Liberation Serif", serif; font-size: 18pt; color: #d97757; line-height: 1.2; margin-bottom: 9pt; }
+.cta .l { font-size: 10pt; line-height: 1.5; color: #e8e5dd; }
+.rodape { text-align: center; font-size: 8.5pt; line-height: 1.5; color: #8a6a5a; margin-top: 22.5pt; }

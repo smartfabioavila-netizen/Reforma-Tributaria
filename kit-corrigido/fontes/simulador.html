@@ -1,0 +1,176 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<title>Simulador de Impacto por Regime Tributário</title>
+<link rel="stylesheet" href="base.css"><link rel="stylesheet" href="simulador.css"></head><body>
+<section class="capa">
+  <div class="selo">Kit Reforma Tributária 2026</div>
+  <h1>Simulador de <span>Impacto</span><br>por Regime<br>Tributário.</h1>
+  <p class="sub">Um prompt. Três regimes. Estimativa completa em minutos — direto no Claude.ai.</p>
+  <div class="linha"></div>
+  <div class="meta">Ferramenta · 100% dentro do <b>Claude.ai</b><br>
+  Sem planilha · Sem instalar nada · Sem saber Excel avançado<br>
+  Base: <b>LC 214/2025</b> · Edição 2026</div>
+</section>
+
+<h2 class="secao">O que é este simulador</h2>
+<p>Este material te entrega <b>um único prompt estruturado</b> que transforma o Claude em um simulador completo de impacto tributário. Você cola o prompt, preenche os dados do seu cliente e o Claude devolve:</p>
+<ul class="lista">
+  <li>Carga tributária ATUAL (regime vigente)</li>
+  <li>Carga tributária PÓS-REFORMA (com IBS + CBS)</li>
+  <li>Diferença em R$ e em %</li>
+  <li>Recomendação estratégica (manter regime, migrar, antecipar investimentos)</li>
+  <li>Alertas de risco específicos do caso</li>
+</ul>
+<div class="destaque"><b>Importante:</b> o simulador usa alíquotas de referência da LC 214/2025 e premissas conservadoras. O resultado é uma <b>estimativa de planejamento</b>, não substitui análise caso a caso com documentos reais na mão.</div>
+
+<h2 class="secao">Como usar em 4 passos</h2>
+<div class="passo"><div class="cab"><span class="num">1</span><span class="tit">Abra o Claude.ai</span></div><div class="x">Acesse <code>claude.ai</code> e entre no Project "Especialista Reforma Tributária 2026" (se você já configurou o agente do kit). Se não configurou, use o chat padrão mesmo.</div></div>
+<div class="passo"><div class="cab"><span class="num">2</span><span class="tit">Reúna os dados do cliente</span></div><div class="x">Você vai precisar de 7 informações básicas. A lista completa está na próxima página.</div></div>
+<div class="passo"><div class="cab"><span class="num">3</span><span class="tit">Copie o prompt completo</span></div><div class="x">Copie o bloco "PROMPT DO SIMULADOR" integralmente. Cole no Claude. Substitua os campos entre colchetes pelos dados do cliente, sem nome, CNPJ ou CPF (use "Cliente A").</div></div>
+<div class="passo"><div class="cab"><span class="num">4</span><span class="tit">Receba o relatório pronto</span></div><div class="x">O Claude devolve o relatório em formato executivo. Revise os números, ajuste premissas se necessário e envie para o cliente.</div></div>
+
+<div class="faixa">Dados que você precisa ter em mãos</div>
+<p>Antes de rodar o simulador, reúna estas 7 informações do cliente. Sem elas, a simulação perde precisão:</p>
+<table class="dados"><tr><th>#</th><th>Informação</th><th>Onde encontrar</th></tr>
+<tr><td>1</td><td>Regime tributário atual</td><td>Contrato social / Simples / último DAS / DCTF</td></tr><tr><td>2</td><td>Atividade principal e CNAE</td><td>Cartão CNPJ</td></tr><tr><td>3</td><td>Faturamento anual (últimos 12 meses)</td><td>DRE ou extrato de NFs emitidas</td></tr><tr><td>4</td><td>% de vendas para pessoa física vs jurídica</td><td>Relatório de faturamento por cliente</td></tr><tr><td>5</td><td>Total de aquisições tributáveis (insumos/serviços)</td><td>Contas a pagar + NFs de entrada</td></tr><tr><td>6</td><td>Estado e município da sede</td><td>Cartão CNPJ</td></tr><tr><td>7</td><td>Margem bruta estimada</td><td>DRE do último exercício</td></tr>
+</table>
+<div class="dica"><b>Dica prática:</b> <i>crie um formulário simples no Google Forms com essas 7 perguntas e envie para o cliente antes da reunião. Em 5 minutos você tem tudo que precisa para rodar o simulador.</i></div>
+
+<div class="faixa">Prompt do simulador · copiar e colar</div>
+<p>Este é o prompt completo. <b>Copie tudo</b>, do início ao fim, e cole no Claude.ai.</p>
+<div class="etiqueta">PROMPT · SIMULADOR COMPLETO</div>
+<pre>Você é um consultor tributário sênior especializado na Reforma Tributária do Consumo
+(EC 132/2023 e LC 214/2025).
+
+Sua tarefa: simular o impacto tributário da Reforma Tributária na empresa descrita
+abaixo e entregar um RELATÓRIO EXECUTIVO DE 1 PÁGINA com recomendação clara.
+
+=== DADOS DO CLIENTE ===
+
+- Identificação: [Cliente A — não use nome, CNPJ ou CPF]
+- Regime tributário atual: [Simples Nacional / Lucro Presumido / Lucro Real]
+- Anexo do Simples (se aplicável): [I, II, III, IV ou V]
+- Atividade principal: [descrever] | CNAE: [XXXX-X/XX]
+- Setor: [Comércio / Serviço / Indústria / Agro / outro]
+- Faturamento anual (últimos 12 meses): R$ [valor]
+- % de vendas para Pessoa Jurídica: [X%]
+- % de vendas para Pessoa Física: [X%]
+- Total anual de aquisições tributáveis (insumos/serviços): R$ [valor]
+- UF e município da sede: [cidade/UF]
+- Margem bruta estimada: [X%]
+
+=== PREMISSAS A USAR ===
+
+1. Alíquota combinada de referência de IBS + CBS: 26,5% (podendo ajustar para cima ou
+para baixo conforme setor e regime diferenciado aplicável).
+2. Creditamento pleno de IBS/CBS sobre aquisições tributáveis no Lucro Real, no
+Lucro Presumido e no Simples que optar pelo regime regular de IBS/CBS.
+3. Simples Nacional: considerar as duas hipóteses — mantendo o Simples integralmente
+E optando pelo regime regular de IBS/CBS (híbrido).
+4. Ignore o Imposto Seletivo (exceto se o setor indicar incidência).
+5. Ignore variações municipais específicas do IBS nesta simulação.
+6. IBS/CBS são cobrados por fora: calcule-os sobre a receita líquida dos tributos
+atuais (PIS, Cofins, ICMS, ISS, IPI), e não sobre o faturamento bruto.
+7. Folha de salários não gera crédito de IBS/CBS.
+8. As alíquotas de referência ainda serão fixadas: rotule os números como
+estimativa.
+
+=== ENTREGUE NESTA ESTRUTURA ===
+
+1. RESUMO EXECUTIVO (3 linhas)
+   - Em uma frase: o cliente ganha ou perde com a reforma?
+   - Em R$ anuais: qual o impacto estimado?
+   - Recomendação central em 1 linha.
+
+2. TABELA COMPARATIVA DE CARGA TRIBUTÁRIA
+   Colunas: Tributo | Cenário Atual (R$/ano) | Cenário Reforma (R$/ano) | Variação
+(R$ e %)
+   Linhas: PIS, Cofins, ICMS, ISS, IPI, CBS, IBS, TOTAL.
+
+3. PREMISSAS USADAS NO CÁLCULO
+   Liste todas as premissas numéricas adotadas (alíquotas, % de crédito, base de
+cálculo).
+
+4. ANÁLISE DE CENÁRIOS (apenas se Simples Nacional)
+   Cenário A: manter Simples integralmente.
+   Cenário B: optar pelo regime regular híbrido (Simples + IBS/CBS separados).
+   Compare numericamente e recomende.
+
+5. RECOMENDAÇÕES ESTRATÉGICAS
+   Liste de 3 a 5 ações práticas e priorizadas:
+   - Manter ou migrar de regime?
+   - Antecipar ou adiar compras/investimentos?
+   - Renegociar contratos?
+   - Ajustar precificação?
+   - Preparar caixa para Split Payment?
+
+6. ALERTAS DE RISCO
+   Liste 2 a 3 pontos de atenção específicos para o caso (aumento de carga, queda de
+competitividade, perda de crédito, etc.).
+
+7. AVISO FINAL (padrão)
+   &quot;Simulação baseada em alíquotas de referência (LC 214/2025) e nas premissas
+informadas.
+   Cálculo definitivo depende de regulamentação complementar e análise caso a caso
+com documentos.
+   Este material não substitui o julgamento profissional do contador habilitado.&quot;
+
+=== REGRAS DE FORMATAÇÃO ===
+
+- Use tabelas sempre que comparar números.
+- Valores em R$ no padrão brasileiro (R$ 1.000,00).
+- Não invente dados: se algo faltar, assuma premissa conservadora E declare
+explicitamente a premissa.
+- Tom: executivo, técnico, direto. Sem enrolação.
+- Tamanho: relatório cabendo em 1 a 2 páginas.
+
+Ao final, pergunte: &quot;Quer que eu transforme esse relatório em e-mail para o cliente,
+em roteiro de reunião ou em proposta comercial de consultoria?&quot;</pre>
+
+<div class="faixa">Exemplo de uso · caso real preenchido</div>
+<p>Para você ver como fica na prática, aqui está o mesmo prompt preenchido com dados de um cliente fictício — basta adaptar a estrutura para seus próprios clientes:</p>
+<div class="etiqueta">EXEMPLO · CLÍNICA ODONTOLÓGICA SP</div>
+<pre>- Identificação: Cliente A (clínica odontológica)
+- Regime tributário atual: Lucro Presumido
+- Anexo do Simples: não se aplica
+- Atividade principal: Serviços odontológicos | CNAE: 8630-5/04
+- Setor: Serviço (saúde)
+- Faturamento anual: R$ 2.400.000,00
+- % de vendas para Pessoa Jurídica: 15%
+- % de vendas para Pessoa Física: 85%
+- Total anual de aquisições tributáveis: R$ 360.000,00
+- UF e município da sede: São Paulo/SP
+- Margem bruta estimada: 55%</pre>
+<div class="dica"><b>Observação:</b> <i>serviços de saúde, como os odontológicos, têm redução de 60% nas alíquotas de IBS/CBS (LC 214/2025, conforme o enquadramento na NBS). Com 26,5% de referência, a alíquota efetiva fica em torno de 10,6%. Informe o setor corretamente e confira, na seção de premissas, se o Claude aplicou a redução.</i></div>
+
+<div class="faixa">Prompts complementares · aprofundamentos</div>
+<p>Depois de rodar a simulação principal, use estes prompts curtos para gerar materiais derivados — todos dentro da mesma conversa no Claude:</p>
+
+<div class="comp"><h3><span class="emoji">🔁</span> Prompt 1 · Gerar versão para o cliente leigo</h3><pre>Agora transforme o relatório acima em um resumo de 1 página para enviar ao dono da
+empresa, que não é contador. Linguagem simples, sem jargão, com os 3 pontos mais
+importantes em destaque.</pre></div>
+<div class="comp"><h3><span class="emoji">📧</span> Prompt 2 · Gerar e-mail de apresentação</h3><pre>Escreva um e-mail curto (máximo 200 palavras) apresentando o resultado desta
+simulação para o cliente. Tom: cordial, técnico, sem alarmismo. Termine com CTA para
+agendar reunião de 30 minutos.</pre></div>
+<div class="comp"><h3><span class="emoji">💰</span> Prompt 3 · Gerar proposta comercial de consultoria</h3><pre>Com base neste diagnóstico, monte uma proposta comercial de consultoria de adaptação
+à Reforma Tributária para este cliente. Inclua escopo, prazo, entregáveis e sugestão
+de honorários (ancorados pelo valor da economia tributária identificada).</pre></div>
+<div class="comp"><h3><span class="emoji">🔄</span> Prompt 4 · Refazer com premissa diferente</h3><pre>Refaça a simulação, mas desta vez considerando que a alíquota efetiva do setor fica
+em [X%] devido a regime diferenciado. Mantenha todo o resto igual e me mostre o novo
+resultado.</pre></div>
+
+<div class="faixa">5 regras de ouro para simulações precisas</div>
+<div class="passo"><div class="cab"><span class="num">1</span><span class="tit">Nunca rode sem os 7 dados básicos.</span></div><div class="x">Se faltar alguma informação, peça ao cliente antes. Simulação com "chute" compromete toda a recomendação.</div></div>
+<div class="passo"><div class="cab"><span class="num">2</span><span class="tit">Confira as alíquotas que o Claude usou.</span></div><div class="x">No relatório, sempre revise a seção de premissas. A alíquota combinada de referência pode variar por setor — especialmente saúde, educação, transporte e agro.</div></div>
+<div class="passo"><div class="cab"><span class="num">3</span><span class="tit">Rode 2 cenários para clientes do Simples.</span></div><div class="x">Sempre simule "manter no Simples" vs "regime regular híbrido". A decisão aqui pode representar dezenas de milhares de reais ao ano.</div></div>
+<div class="passo"><div class="cab"><span class="num">4</span><span class="tit">Valide com o texto da LC 214/2025.</span></div><div class="x">Antes de apresentar ao cliente, confira artigos citados. O Claude erra menos que o Google, mas erra. A responsabilidade técnica é sua.</div></div>
+<div class="passo"><div class="cab"><span class="num">5</span><span class="tit">Transforme a simulação em venda.</span></div><div class="x">Toda simulação vira oportunidade de consultoria paga. Use o Prompt 3 (Proposta comercial) imediatamente depois do diagnóstico.</div></div>
+
+<div class="faixa">Perguntas rápidas</div>
+<div class="faq"><h3>Posso usar no Claude gratuito?</h3><p>Sim. O prompt funciona no plano gratuito, mas com limite de mensagens. Para uso profissional intenso, considere um plano pago (veja os planos atuais em claude.ai), que libera mais uso e os modelos mais recentes.</p></div><div class="faq"><h3>O Claude faz o cálculo sozinho ou eu preciso ter planilha?</h3><p>O Claude calcula sozinho, no próprio chat. Você não precisa de Excel. Se quiser, peça também uma tabela em formato CSV e cole na sua planilha depois.</p></div><div class="faq"><h3>E se o cliente tiver várias atividades / CNAEs?</h3><p>Rode uma simulação por atividade principal e depois peça ao Claude para consolidar: <i>"consolide os dois resultados em um relatório único com o impacto total da empresa"</i>.</p></div><div class="faq"><h3>A simulação vale como parecer oficial?</h3><p>Não. É uma ferramenta de planejamento e apoio à decisão. O parecer oficial, com carimbo e responsabilidade técnica, continua sendo seu.</p></div>
+
+<div class="cta"><div class="t">Agora é rodar.</div>
+<div class="l">Copie o prompt · Preencha os dados · Receba o relatório.<br>3 minutos do seu tempo = 1 cliente mais bem atendido.</div></div>
+<div class="rodape">© 2026 Claude para Contadores · Kit Reforma Tributária 2026<br>
+Uso individual e intransferível · Material baseado na LC 214/2025<br>
+Não substitui o julgamento profissional do contador habilitado · Sem vínculo com a Anthropic.</div>
+</body></html>

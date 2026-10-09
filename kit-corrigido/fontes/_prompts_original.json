@@ -1,0 +1,320 @@
+[
+ {
+  "page": 3,
+  "x0": 84.02362060546875,
+  "lines": [
+   "Você é um contador experiente explicando a Reforma Tributária para um",
+   "cliente leigo.",
+   "",
+   "Explique o que é a CBS (Contribuição sobre Bens e Serviços) em no máximo",
+   "200 palavras, usando:",
+   "- Linguagem simples, sem jargão técnico",
+   "- Uma analogia do dia a dia",
+   "- Comparação com PIS e Cofins (que ela substitui)",
+   "- Como isso afeta o preço final dos produtos/serviços",
+   "",
+   "Formato: texto corrido, tom didático, como se fosse uma conversa no",
+   "WhatsApp."
+  ]
+ },
+ {
+  "page": 4,
+  "x0": 84.02362060546875,
+  "lines": [
+   "Monte uma tabela comparativa entre:",
+   "- ICMS (estadual atual)",
+   "- ISS (municipal atual)",
+   "- IBS (novo imposto unificado da Reforma Tributária)",
+   "",
+   "Colunas da tabela:",
+   "1. Quem recolhe",
+   "2. Alíquota média",
+   "3. Base de cálculo",
+   "4. Forma de apuração",
+   "5. Creditamento",
+   "6. Principais mudanças práticas para o contribuinte",
+   "",
+   "Depois da tabela, escreva um parágrafo de 3 linhas resumindo a MAIOR",
+   "mudança do ponto de vista prático."
+  ]
+ },
+ {
+  "page": 4,
+  "x0": 84.02362060546875,
+  "lines": [
+   "Explique o mecanismo de Split Payment da Reforma Tributária em 3 partes:",
+   "",
+   "1. O QUE É: definição em 2 frases.",
+   "2. COMO FUNCIONA NA PRÁTICA: passo a passo de uma venda de R$ 1.000,00 com",
+   "alíquota de 26,5%, mostrando exatamente para onde vai cada centavo e em que",
+   "momento.",
+   "3. O QUE MUDA PARA O CLIENTE: impacto no fluxo de caixa e na rotina do",
+   "financeiro da empresa.",
+   "",
+   "Tom: didático, objetivo, como se estivesse explicando para um dono de",
+   "empresa de médio porte que nunca ouviu falar disso."
+  ]
+ },
+ {
+  "page": 5,
+  "x0": 84.02362060546875,
+  "lines": [
+   "Monte um cronograma visual (em texto, formato de linha do tempo) da",
+   "transição da Reforma Tributária, ano a ano, de 2026 até 2033.",
+   "",
+   "Para cada ano, informe:",
+   "- Ano",
+   "- O que acontece (alíquotas de teste, extinção de tributos antigos,",
+   "obrigações acessórias novas)",
+   "- Ação recomendada para o contador",
+   "",
+   "Ao final, destaque os 3 anos mais críticos para a rotina do escritório",
+   "contábil e explique por quê."
+  ]
+ },
+ {
+  "page": 6,
+  "x0": 84.02362060546875,
+  "lines": [
+   "Simule a carga tributária do meu cliente antes e depois da Reforma",
+   "Tributária.",
+   "",
+   "Dados do cliente:",
+   "- Regime atual: [Simples Nacional / Lucro Presumido / Lucro Real]",
+   "- Atividade principal: [descrever]",
+   "- Faturamento anual: [R$ valor]",
+   "- Principais despesas com aquisição de insumos: [R$ valor]",
+   "- Estado da sede: [UF]",
+   "",
+   "Calcule:",
+   "1. Carga tributária ATUAL (PIS, Cofins, ICMS, ISS, IPI conforme aplicável)",
+   "2. Carga tributária com IBS + CBS na alíquota padrão de referência",
+   "3. Diferença em R$ e em %",
+   "4. Recomendação estratégica: vale migrar de regime? adiar investimentos?",
+   "antecipar compras?",
+   "",
+   "Apresente em formato de relatório executivo de 1 página."
+  ]
+ },
+ {
+  "page": 7,
+  "x0": 84.02362060546875,
+  "lines": [
+   "Faça uma análise do impacto da Reforma Tributária no setor de [SETOR DO",
+   "CLIENTE — ex: restaurantes, e-commerce, clínica médica, transportadora,",
+   "agronegócio].",
+   "",
+   "Estruture a resposta em:",
+   "",
+   "1. Cenário atual do setor (regime mais comum, carga típica)",
+   "2. O que muda com IBS + CBS",
+   "3. Regime diferenciado ou específico aplicável (se houver)",
+   "4. 3 oportunidades que a reforma abre para esse setor",
+   "5. 3 riscos ou cuidados que o contador deve alertar o cliente",
+   "6. Ação imediata recomendada (o que fazer nos próximos 90 dias)",
+   "",
+   "Use dados da LC 214/2025 sempre que possível."
+  ]
+ },
+ {
+  "page": 8,
+  "x0": 84.02362060546875,
+  "lines": [
+   "Analise se o meu cliente do Simples Nacional deve OPTAR pelo regime regular",
+   "do IBS e CBS (fora do Simples) ou MANTER tudo dentro do Simples.",
+   "",
+   "Dados:",
+   "- Faturamento anual: [R$]",
+   "- Anexo atual do Simples: [I/II/III/IV/V]",
+   "- Perfil dos clientes: [pessoa física / empresas do Lucro Real / misto]",
+   "- % de vendas para empresas que aproveitam crédito: [%]",
+   "",
+   "Responda:",
+   "1. Recomendação clara (OPTAR ou MANTER) com justificativa",
+   "2. Cálculo comparativo resumido",
+   "3. Riscos da escolha recomendada",
+   "4. Prazo e forma de formalizar a opção",
+   "5. Quando reavaliar essa decisão",
+   "",
+   "Tom: consultivo, decisório, como um parecer técnico."
+  ]
+ },
+ {
+  "page": 9,
+  "x0": 84.02362060546875,
+  "lines": [
+   "Monte um plano de aproveitamento de créditos tributários para um cliente do",
+   "Lucro Real durante o período de transição da Reforma Tributária.",
+   "",
+   "Considere:",
+   "- Saldos credores de PIS e Cofins ao final da transição",
+   "- Créditos de ICMS acumulados",
+   "- Novos créditos de IBS e CBS (regra de não-cumulatividade plena)",
+   "- Timing ideal de compras e investimentos",
+   "",
+   "Entregue:",
+   "1. Estratégia geral em 5 linhas",
+   "2. 7 ações práticas numeradas, em ordem de prioridade",
+   "3. Erros comuns a evitar",
+   "4. Documentos que precisam ser organizados AGORA",
+   "",
+   "Formato: plano de ação executivo."
+  ]
+ },
+ {
+  "page": 10,
+  "x0": 84.02362060546875,
+  "lines": [
+   "Escreva um e-mail do escritório de contabilidade para a base de clientes",
+   "sobre a Reforma Tributária.",
+   "",
+   "Requisitos:",
+   "- Assunto que gera abertura (máx. 50 caracteres)",
+   "- Saudação cordial e personalizável",
+   "- 3 parágrafos curtos:",
+   "  (1) o que está acontecendo",
+   "  (2) o que MUDA para a empresa do cliente",
+   "  (3) o que o escritório já está fazendo para proteger o cliente",
+   "- CTA claro: agendar reunião de 30 minutos",
+   "- Assinatura profissional",
+   "- Tom: seguro, técnico, humano — nunca alarmista",
+   "",
+   "Tamanho total: 250 a 300 palavras."
+  ]
+ },
+ {
+  "page": 10,
+  "x0": 84.02362060546875,
+  "lines": [
+   "Crie um FAQ com as 10 dúvidas mais comuns que empresários fazem ao contador",
+   "sobre a Reforma Tributária.",
+   "",
+   "Para cada dúvida:",
+   "- Pergunta na voz do cliente (coloquial)",
+   "- Resposta em até 4 linhas",
+   "- Linguagem simples, sem jargão",
+   "- Quando pertinente, incluir o \"faça isso agora\"",
+   "",
+   "No final, adicione a frase: \"Qualquer dúvida adicional, responda este",
+   "material que um contador do nosso time retorna em até 1 dia útil.\"",
+   "",
+   "Formato: lista numerada pronta para virar PDF."
+  ]
+ },
+ {
+  "page": 11,
+  "x0": 84.02362060546875,
+  "lines": [
+   "Escreva um post de LinkedIn, em primeira pessoa, de um contador comentando",
+   "UM ponto específico da Reforma Tributária: [tema escolhido].",
+   "",
+   "Estrutura obrigatória:",
+   "- Linha 1: gancho que para o scroll (pergunta ou afirmação forte)",
+   "- Linhas 2–3: contexto do problema",
+   "- Linhas 4–7: a informação técnica simplificada",
+   "- Linhas 8–9: o que o empresário deve fazer",
+   "- Linha final: CTA suave (comentar ou enviar DM)",
+   "",
+   "Regras:",
+   "- 150 a 180 palavras",
+   "- Parágrafos de no máximo 2 linhas",
+   "- Sem emojis em excesso (máximo 2)",
+   "- Tom: autoridade + proximidade"
+  ]
+ },
+ {
+  "page": 12,
+  "x0": 84.02362060546875,
+  "lines": [
+   "Monte um roteiro de reunião de 30 minutos entre o contador e o dono de uma",
+   "empresa para alinhar os impactos da Reforma Tributária.",
+   "",
+   "Dados do cliente:",
+   "- Regime: [regime]",
+   "- Setor: [setor]",
+   "- Porte: [faturamento]",
+   "",
+   "Entregue:",
+   "1. Agenda minuto a minuto (0–30 min)",
+   "2. 5 perguntas-chave para fazer ao cliente",
+   "3. 3 pontos técnicos que o contador DEVE explicar",
+   "4. Encaminhamentos finais (próximos passos e prazos)",
+   "5. Modelo de ata resumida para enviar ao cliente após a reunião",
+   "",
+   "Tom: executivo, direto, profissional."
+  ]
+ },
+ {
+  "page": 13,
+  "x0": 84.02362060546875,
+  "lines": [
+   "Liste todos os ajustes que precisam ser feitos no sistema emissor de notas",
+   "fiscais de um cliente para se adequar ao IBS e à CBS.",
+   "",
+   "Organize em:",
+   "",
+   "1. CADASTROS (produtos, CFOP, NCM, CST)",
+   "2. PARÂMETROS FISCAIS (alíquotas, regimes, regras de crédito)",
+   "3. LAYOUT DA NOTA (novos campos obrigatórios)",
+   "4. INTEGRAÇÕES (contas a pagar, contas a receber, contabilidade)",
+   "5. TESTES OBRIGATÓRIOS antes do go-live",
+   "",
+   "Para cada item, indique:",
+   "- O que ajustar",
+   "- Prazo recomendado",
+   "- Risco se não for feito",
+   "",
+   "Formato: checklist operacional pronto para executar."
+  ]
+ },
+ {
+  "page": 14,
+  "x0": 84.02362060546875,
+  "lines": [
+   "Aja como um contador trabalhando em conjunto com um advogado tributarista.",
+   "Liste as cláusulas contratuais que empresas devem revisar por causa da",
+   "Reforma Tributária.",
+   "",
+   "Para cada cláusula:",
+   "- Nome da cláusula",
+   "- Por que precisa ser revisada",
+   "- Sugestão de nova redação (texto pronto para o advogado adaptar)",
+   "- Risco caso o contrato fique como está",
+   "",
+   "Cubra no mínimo:",
+   "1. Cláusula de reajuste tributário (gross-up)",
+   "2. Cláusula de repasse de tributos",
+   "3. Cláusula de responsabilidade por Split Payment",
+   "4. Cláusula de renegociação em caso de mudança fiscal relevante",
+   "5. Cláusula de fornecimento continuado",
+   "",
+   "Aviso final: recomende validação jurídica antes do uso."
+  ]
+ },
+ {
+  "page": 15,
+  "x0": 84.02362060546875,
+  "lines": [
+   "Monte um checklist de adaptação do ESCRITÓRIO DE CONTABILIDADE à Reforma",
+   "Tributária (não do cliente — do próprio escritório).",
+   "",
+   "Cubra:",
+   "",
+   "1. CAPACITAÇÃO DA EQUIPE (o que estudar, em qual ordem)",
+   "2. ATUALIZAÇÃO DE SISTEMAS (ERPs, conciliadores, emissores)",
+   "3. REVISÃO DE PROCESSOS INTERNOS (fechamento, apuração, entrega de",
+   "obrigações)",
+   "4. COMUNICAÇÃO COM A BASE DE CLIENTES (cronograma de avisos)",
+   "5. NOVOS SERVIÇOS QUE PODEM SER OFERECIDOS (consultoria, diagnóstico,",
+   "adequação)",
+   "6. REVISÃO DE HONORÁRIOS (justificativa para reajuste)",
+   "",
+   "Para cada item, adicione:",
+   "- Prazo ideal",
+   "- Responsável sugerido",
+   "- Entregável concreto",
+   "",
+   "Formato: checklist executável em 90 dias."
+  ]
+ }
+]

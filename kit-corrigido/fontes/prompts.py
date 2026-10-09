@@ -148,6 +148,7 @@ partes.append("""<div class="cta"><div class="t">Agora é com você.</div>
 <div class="l">15 prompts · 4 blocos · 1 reforma · Infinitas respostas.<br>Copie. Cole. Feche o mês com segurança.</div></div>
 <div class="rodape">© 2026 Claude para Contadores · Uso individual e intransferível<br>
 Material baseado na LC 214/2025 · Não substitui o julgamento profissional do contador habilitado<br>
+Alíquotas de referência de CBS e IBS ainda serão fixadas por resolução do Senado Federal · valores usados são estimativas<br>
 Este material não possui vínculo com a Anthropic.</div>
 </body></html>""")
 (AQUI / "prompts.html").write_text("\n".join(partes))

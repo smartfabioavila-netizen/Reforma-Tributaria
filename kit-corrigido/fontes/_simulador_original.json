@@ -1,0 +1,143 @@
+[
+ {
+  "page": 4,
+  "x0": 67.52362060546875,
+  "lines": [
+   "Você é um consultor tributário sênior especializado na Reforma Tributária do Consumo",
+   "(EC 132/2023 e LC 214/2025).",
+   "",
+   "Sua tarefa: simular o impacto tributário da Reforma Tributária na empresa descrita",
+   "abaixo e entregar um RELATÓRIO EXECUTIVO DE 1 PÁGINA com recomendação clara.",
+   "",
+   "=== DADOS DO CLIENTE ===",
+   "",
+   "- Nome da empresa: [NOME]",
+   "- Regime tributário atual: [Simples Nacional / Lucro Presumido / Lucro Real]",
+   "- Anexo do Simples (se aplicável): [I, II, III, IV ou V]",
+   "- Atividade principal: [descrever] | CNAE: [XXXX-X/XX]",
+   "- Setor: [Comércio / Serviço / Indústria / Agro / outro]",
+   "- Faturamento anual (últimos 12 meses): R$ [valor]",
+   "- % de vendas para Pessoa Jurídica: [X%]",
+   "- % de vendas para Pessoa Física: [X%]",
+   "- Total anual de aquisições tributáveis (insumos/serviços): R$ [valor]",
+   "- UF e município da sede: [cidade/UF]",
+   "- Margem bruta estimada: [X%]",
+   "",
+   "=== PREMISSAS A USAR ===",
+   "",
+   "1. Alíquota combinada de referência de IBS + CBS: 26,5% (podendo ajustar para cima ou",
+   "para baixo conforme setor e regime diferenciado aplicável).",
+   "2. Creditamento pleno de IBS/CBS sobre aquisições tributáveis no Lucro Real e",
+   "Presumido que optar pelo regime regular.",
+   "3. Simples Nacional: considerar as duas hipóteses — mantendo o Simples integralmente",
+   "E optando pelo regime regular de IBS/CBS (híbrido).",
+   "4. Ignore o Imposto Seletivo (exceto se o setor indicar incidência).",
+   "5. Ignore variações municipais específicas do IBS nesta simulação.",
+   "",
+   "=== ENTREGUE NESTA ESTRUTURA ===",
+   "",
+   "1. RESUMO EXECUTIVO (3 linhas)",
+   "   - Em uma frase: o cliente ganha ou perde com a reforma?",
+   "   - Em R$ anuais: qual o impacto estimado?",
+   "   - Recomendação central em 1 linha.",
+   "",
+   "2. TABELA COMPARATIVA DE CARGA TRIBUTÁRIA",
+   "   Colunas: Tributo | Cenário Atual (R$/ano) | Cenário Reforma (R$/ano) | Variação",
+   "(R$ e %)",
+   "   Linhas: PIS, Cofins, ICMS, ISS, IPI, CBS, IBS, TOTAL.",
+   "",
+   "3. PREMISSAS USADAS NO CÁLCULO",
+   "   Liste todas as premissas numéricas adotadas (alíquotas, % de crédito, base de",
+   "cálculo).",
+   "",
+   "4. ANÁLISE DE CENÁRIOS (apenas se Simples Nacional)",
+   "   Cenário A: manter Simples integralmente.",
+   "   Cenário B: optar pelo regime regular híbrido (Simples + IBS/CBS separados).",
+   "   Compare numericamente e recomende.",
+   "",
+   "5. RECOMENDAÇÕES ESTRATÉGICAS",
+   "   Liste de 3 a 5 ações práticas e priorizadas:",
+   "   - Manter ou migrar de regime?",
+   "   - Antecipar ou adiar compras/investimentos?",
+   "   - Renegociar contratos?",
+   "   - Ajustar precificação?",
+   "   - Preparar caixa para Split Payment?",
+   "",
+   "6. ALERTAS DE RISCO",
+   "   Liste 2 a 3 pontos de atenção específicos para o caso (aumento de carga, queda de",
+   "competitividade, perda de crédito, etc.).",
+   "",
+   "7. AVISO FINAL (padrão)",
+   "   \"Simulação baseada em alíquotas de referência (LC 214/2025) e nas premissas",
+   "informadas.",
+   "   Cálculo definitivo depende de regulamentação complementar e análise caso a caso",
+   "com documentos.",
+   "   Este material não substitui o julgamento profissional do contador habilitado.\"",
+   "",
+   "=== REGRAS DE FORMATAÇÃO ===",
+   "",
+   "- Use tabelas sempre que comparar números.",
+   "- Valores em R$ no padrão brasileiro (R$ 1.000,00).",
+   "- Não invente dados: se algo faltar, assuma premissa conservadora E declare",
+   "explicitamente a premissa.",
+   "- Tom: executivo, técnico, direto. Sem enrolação.",
+   "- Tamanho: relatório cabendo em 1 a 2 páginas.",
+   "",
+   "Ao final, pergunte: \"Quer que eu transforme esse relatório em e-mail para o cliente,",
+   "em roteiro de reunião ou em proposta comercial de consultoria?\""
+  ]
+ },
+ {
+  "page": 6,
+  "x0": 67.52362060546875,
+  "lines": [
+   "- Nome da empresa: Clínica Sorriso Ltda",
+   "- Regime tributário atual: Lucro Presumido",
+   "- Anexo do Simples: não se aplica",
+   "- Atividade principal: Serviços odontológicos | CNAE: 8630-5/04",
+   "- Setor: Serviço (saúde)",
+   "- Faturamento anual: R$ 2.400.000,00",
+   "- % de vendas para Pessoa Jurídica: 15%",
+   "- % de vendas para Pessoa Física: 85%",
+   "- Total anual de aquisições tributáveis: R$ 360.000,00",
+   "- UF e município da sede: São Paulo/SP",
+   "- Margem bruta estimada: 55%"
+  ]
+ },
+ {
+  "page": 6,
+  "x0": 67.52362060546875,
+  "lines": [
+   "Agora transforme o relatório acima em um resumo de 1 página para enviar ao dono da",
+   "empresa, que não é contador. Linguagem simples, sem jargão, com os 3 pontos mais",
+   "importantes em destaque."
+  ]
+ },
+ {
+  "page": 6,
+  "x0": 67.52362060546875,
+  "lines": [
+   "Escreva um e-mail curto (máximo 200 palavras) apresentando o resultado desta",
+   "simulação para o cliente. Tom: cordial, técnico, sem alarmismo. Termine com CTA para",
+   "agendar reunião de 30 minutos."
+  ]
+ },
+ {
+  "page": 6,
+  "x0": 67.52362060546875,
+  "lines": [
+   "Com base neste diagnóstico, monte uma proposta comercial de consultoria de adaptação",
+   "à Reforma Tributária para este cliente. Inclua escopo, prazo, entregáveis e sugestão",
+   "de honorários (ancorados pelo valor da economia tributária identificada)."
+  ]
+ },
+ {
+  "page": 7,
+  "x0": 67.52362060546875,
+  "lines": [
+   "Refaça a simulação, mas desta vez considerando que a alíquota efetiva do setor fica",
+   "em [X%] devido a regime diferenciado. Mantenha todo o resto igual e me mostre o novo",
+   "resultado."
+  ]
+ }
+]

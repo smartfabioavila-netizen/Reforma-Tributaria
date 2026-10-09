@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Mapa Visual da Transição 2026 → 2033</title>
+<link rel="stylesheet" href="estilo.css">
+<style>
+  @page { size: A4 landscape; margin: 0; }
+  body { font-size: 9pt; }
+  .pagina {
+    width: 297mm; height: 210mm; padding: 11mm 13mm 9mm;
+    display: flex; flex-direction: column; overflow: hidden;
+    page-break-after: always;
+  }
+  .pagina:last-child { page-break-after: auto; }
+  .topo { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 5mm; }
+  .topo .selo { font-size: 8pt; letter-spacing: .16em; text-transform: uppercase; color: var(--verde); font-weight: 700; }
+  .topo h1 { border: 0; margin: 1mm 0 0; padding: 0; font-size: 22pt; }
+  .topo .base { text-align: right; color: var(--cinza); font-size: 8pt; line-height: 1.4; }
+
+  .grade {
+    display: grid; grid-template-columns: 34mm repeat(8, 1fr);
+    gap: 1.6mm; flex: 1;
+    grid-auto-rows: minmax(0, 1fr);
+  }
+  .ano {
+    background: var(--navy); color: #fff; border-radius: 5px;
+    font-weight: 700; font-size: 12pt; text-align: center; padding: 2mm 0;
+    font-family: "Inter Display", "Inter", sans-serif;
+    align-self: stretch; display: flex; align-items: center; justify-content: center;
+  }
+  .ano.destaque { background: var(--verde); }
+  .rot {
+    display: flex; flex-direction: column; justify-content: center;
+    font-weight: 700; color: var(--navy); font-size: 9.5pt; line-height: 1.2;
+  }
+  .rot small { font-weight: 500; color: var(--cinza); font-size: 7.5pt; }
+  .c {
+    border-radius: 5px; padding: 1.5mm 2mm; font-size: 8pt; line-height: 1.25;
+    display: flex; flex-direction: column; justify-content: center;
+  }
+  .c b { font-size: 9.5pt; }
+  .velho { background: #fbe3e1; color: #8a2a22; }
+  .velho.v90 { background: #fbe8e6; } .velho.v80 { background: #fcedeb; }
+  .velho.v70 { background: #fdf2f1; } .velho.v60 { background: #fef6f5; }
+  .fim { background: #f1f2f4; color: #8a94a3; text-decoration: line-through; }
+  .novo { background: #d7efe3; color: #155f3f; }
+  .novo.n10 { background: #e9f6ef; } .novo.n20 { background: #e1f3e9; }
+  .novo.n30 { background: #d9efe2; } .novo.n40 { background: #d0eadb; }
+  .novo.cheio { background: var(--verde); color: #fff; }
+  .teste { background: #fff3d6; color: #7a5212; border: 1px dashed #d9a640; }
+  .marco {
+    background: var(--fundo); border-left: 3px solid var(--azul); color: #22344a;
+    font-size: 7.6pt;
+  }
+  .span2 { grid-column: span 2; }
+  .span3 { grid-column: span 3; }
+  .span4 { grid-column: span 4; }
+  .span6 { grid-column: span 6; }
+  .span7 { grid-column: span 7; }
+
+  .legenda { display: flex; gap: 6mm; margin-top: 3.5mm; font-size: 7.8pt; color: var(--cinza); align-items: center; }
+  .legenda i { display: inline-block; width: 4mm; height: 3mm; border-radius: 2px; margin-right: 1.5mm; vertical-align: -0.4mm; }
+
+  .fases { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; flex: 1; }
+  .fase { border: 1px solid var(--linha); border-radius: 8px; padding: 4mm; display: flex; flex-direction: column; }
+  .fase .quando { font-size: 8pt; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--verde); }
+  .fase h2 { margin: 1mm 0 2.5mm; font-size: 13pt; }
+  .fase h3 { font-size: 9pt; margin: 2.5mm 0 1mm; color: var(--azul); }
+  .fase ul { padding-left: 4.5mm; margin: 0; }
+  .fase li { margin-bottom: .8mm; font-size: 8.4pt; line-height: 1.35; }
+  .nota { margin-top: 4mm; font-size: 7.8pt; color: var(--cinza); line-height: 1.4; }
+</style>
+</head>
+<body>
+
+<section class="pagina">
+  <div class="topo">
+    <div>
+      <div class="selo">Material 05 · Mapa visual</div>
+      <h1>A transição tributária, ano a ano: 2026 → 2033</h1>
+    </div>
+    <div class="base">EC 132/2023 · LC 214/2025<br>Tributos sobre o consumo</div>
+  </div>
+
+  <div class="grade">
+    <div></div>
+    <div class="ano destaque">2026</div><div class="ano destaque">2027</div><div class="ano">2028</div>
+    <div class="ano">2029</div><div class="ano">2030</div><div class="ano">2031</div><div class="ano">2032</div>
+    <div class="ano destaque">2033</div>
+
+    <div class="rot">PIS e Cofins<small>federais</small></div>
+    <div class="c velho"><b>Normal</b>Compensam a CBS do teste</div>
+    <div class="c fim span7"><b>Extintos a partir de 2027</b></div>
+
+    <div class="rot">CBS<small>federal · substitui PIS/Cofins</small></div>
+    <div class="c teste"><b>0,9%</b>Teste, destacado na nota</div>
+    <div class="c novo cheio span2"><b>Alíquota cheia</b>Reduzida em 0,1 p.p. (compensa o IBS)</div>
+    <div class="c novo cheio span4"><b>Alíquota cheia</b></div>
+    <div class="c novo cheio"><b>Integral</b></div>
+
+    <div class="rot">IPI<small>federal</small></div>
+    <div class="c velho"><b>Normal</b></div>
+    <div class="c fim span7"><b>Zerado a partir de 2027</b> (exceto produtos com industrialização incentivada na Zona Franca de Manaus)</div>
+
+    <div class="rot">Imposto Seletivo<small>federal · extrafiscal</small></div>
+    <div class="c" style="background:#f1f2f4;color:#8a94a3"><b>Não existe</b></div>
+    <div class="c novo cheio span7" style="background:#6b4fa3"><b>Em vigor a partir de 2027</b>Fumo, bebidas alcoólicas e açucaradas, veículos, bens minerais, apostas e outros bens prejudiciais à saúde ou ao meio ambiente</div>
+
+    <div class="rot">ICMS<small>estadual</small></div>
+    <div class="c velho span3"><b>100%</b>Alíquotas atuais</div>
+    <div class="c velho v90"><b>90%</b></div>
+    <div class="c velho v80"><b>80%</b></div>
+    <div class="c velho v70"><b>70%</b></div>
+    <div class="c velho v60"><b>60%</b>Fim dos benefícios</div>
+    <div class="c fim"><b>Extinto</b></div>
+
+    <div class="rot">ISS<small>municipal</small></div>
+    <div class="c velho span3"><b>100%</b>Alíquotas atuais</div>
+    <div class="c velho v90"><b>90%</b></div>
+    <div class="c velho v80"><b>80%</b></div>
+    <div class="c velho v70"><b>70%</b></div>
+    <div class="c velho v60"><b>60%</b></div>
+    <div class="c fim"><b>Extinto</b></div>
+
+    <div class="rot">IBS<small>estados + municípios · substitui ICMS/ISS</small></div>
+    <div class="c teste"><b>0,1%</b>Teste, destacado na nota</div>
+    <div class="c teste span2"><b>0,1%</b>0,05% estadual + 0,05% municipal</div>
+    <div class="c novo n10"><b>Sobe</b>Repõe 10% de ICMS/ISS</div>
+    <div class="c novo n20"><b>Sobe</b>Repõe 20%</div>
+    <div class="c novo n30"><b>Sobe</b>Repõe 30%</div>
+    <div class="c novo n40"><b>Sobe</b>Repõe 40%</div>
+    <div class="c novo cheio"><b>Integral</b></div>
+
+    <div class="rot">Marcos<small>o que acontece</small></div>
+    <div class="c marco">Novos campos na NF-e e na NFS-e. Simples fora do teste.</div>
+    <div class="c marco">Virada federal. Simples pode optar por IBS/CBS no regime regular.</div>
+    <div class="c marco">Ajustes finais antes da virada estadual.</div>
+    <div class="c marco">Começa a troca de ICMS/ISS por IBS.</div>
+    <div class="c marco">Redução gradual continua.</div>
+    <div class="c marco">Redução gradual continua.</div>
+    <div class="c marco">Último ano dos benefícios de ICMS.</div>
+    <div class="c marco">Modelo completo: só CBS, IBS e IS.</div>
+  </div>
+
+  <div class="legenda">
+    <span><i style="background:#fbe3e1"></i>Tributo atual (a cor clareia conforme reduz)</span>
+    <span><i style="background:#fff3d6;border:1px dashed #d9a640"></i>Alíquota-teste</span>
+    <span><i style="background:#d0eadb"></i>Novo tributo em implantação</span>
+    <span><i style="background:var(--verde)"></i>Novo tributo pleno</span>
+    <span><i style="background:#f1f2f4"></i>Extinto ou zerado</span>
+  </div>
+</section>
+
+<section class="pagina">
+  <div class="topo">
+    <div>
+      <div class="selo">Material 05 · Mapa visual</div>
+      <h1>O que fazer em cada fase</h1>
+    </div>
+    <div class="base">Use este quadro para orientar o plano<br>de cada cliente e do escritório</div>
+  </div>
+
+  <div class="fases">
+    <div class="fase">
+      <div class="quando">2026</div>
+      <h2>Preparar</h2>
+      <h3>O que muda</h3>
+      <ul>
+        <li>CBS 0,9% e IBS 0,1% destacados nos documentos fiscais.</li>
+        <li>Quem cumpre as obrigações acessórias fica dispensado do recolhimento (LC 214/2025).</li>
+        <li>Todos os tributos atuais continuam iguais.</li>
+      </ul>
+      <h3>O que fazer</h3>
+      <ul>
+        <li>Atualizar sistemas emissores (NF-e, NFC-e, NFS-e).</li>
+        <li>Revisar NCM/NBS e a classificação tributária dos itens.</li>
+        <li>Fazer a triagem da carteira por regime e impacto.</li>
+        <li>Simular os clientes prioritários.</li>
+      </ul>
+    </div>
+
+    <div class="fase">
+      <div class="quando">2027 – 2028</div>
+      <h2>Virada federal</h2>
+      <h3>O que muda</h3>
+      <ul>
+        <li>PIS e Cofins extintos; CBS com alíquota cheia.</li>
+        <li>IPI zerado (exceto ZFM); entra o Imposto Seletivo.</li>
+        <li>IBS segue a 0,1%.</li>
+        <li>Simples pode optar por IBS/CBS no regime regular.</li>
+      </ul>
+      <h3>O que fazer</h3>
+      <ul>
+        <li>Reprecificar com a CBS "por fora".</li>
+        <li>Mapear créditos e renegociar fornecedores.</li>
+        <li>Revisar contratos de longo prazo.</li>
+        <li>Decidir a opção do Simples (semestral).</li>
+      </ul>
+    </div>
+
+    <div class="fase">
+      <div class="quando">2029 – 2032</div>
+      <h2>Transição estadual e municipal</h2>
+      <h3>O que muda</h3>
+      <ul>
+        <li>ICMS e ISS caem para 90%, 80%, 70% e 60%.</li>
+        <li>IBS sobe na mesma proporção.</li>
+        <li>Benefícios de ICMS vão até 2032.</li>
+        <li>Convivência de dois sistemas: atenção redobrada.</li>
+      </ul>
+      <h3>O que fazer</h3>
+      <ul>
+        <li>Simular de novo a cada ano.</li>
+        <li>Planejar o fim dos incentivos estaduais.</li>
+        <li>Acompanhar créditos acumulados de ICMS.</li>
+        <li>Ajustar o caixa ao split payment.</li>
+      </ul>
+    </div>
+
+    <div class="fase">
+      <div class="quando">2033</div>
+      <h2>Modelo completo</h2>
+      <h3>O que muda</h3>
+      <ul>
+        <li>ICMS e ISS extintos.</li>
+        <li>Tributação do consumo: CBS + IBS + Imposto Seletivo.</li>
+        <li>Crédito amplo e cobrança no destino.</li>
+      </ul>
+      <h3>O que fazer</h3>
+      <ul>
+        <li>Rotina de apuração única de IBS/CBS.</li>
+        <li>Gestão contínua de créditos e fornecedores.</li>
+        <li>Revisão periódica de preços e enquadramentos.</li>
+      </ul>
+    </div>
+  </div>
+
+  <p class="nota">
+    Percentuais de ICMS/ISS indicam a proporção das alíquotas atuais que continua valendo em cada ano. As alíquotas de referência de CBS e IBS serão fixadas por resolução do Senado; estimativas de mercado apontam cerca de 26,5% somados. O cronograma de split payment e diversos detalhes dependem de regulamentação: confirme sempre a norma vigente.
+  </p>
+</section>
+
+</body>
+</html>

@@ -43,6 +43,7 @@ Os originais estão em `../originais/v1/`.
 **E-mails**
 - E-mails 1 e 2: o que o escritório "já fez" virou campo editável, para o modelo não prometer trabalho que não foi feito.
 - Dicas sem fonte foram suavizadas: "abertura 30% maior" e "taxa de resposta cai pela metade".
+- **Novo E-mail 6 · Simples Nacional:** para clientes do Simples que vendem para outras empresas. Explica a escolha, a partir de 2027, entre manter IBS/CBS no DAS e recolher pelo regime regular, e convida o cliente para uma simulação dos dois cenários. O índice e as contagens do pacote passaram de 5 para 6 e-mails.
 
 ## Como gerar os PDFs de novo
 
